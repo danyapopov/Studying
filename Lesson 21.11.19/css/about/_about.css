@@ -20,9 +20,9 @@
 }
 
 .about-block__item {
-    display: flex;
     justify-content: center; 
     overflow: hidden;
+    display: flex;
 } 
 
 .about-block__item-title {
