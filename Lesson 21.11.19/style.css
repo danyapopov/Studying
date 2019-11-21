@@ -1,0 +1,18 @@
+@import './css/interface/_interface.css';
+@import './css/header/_header.css';
+@import './css/about/_about.css';
+@import './css/info/_info.css';
+@import './css/feature/_feature.css';
+@import './css/project/_project.css';
+@import './css/clients/_clients.css';
+@import './css/footer/_footer.css';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}

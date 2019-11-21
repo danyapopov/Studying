@@ -1,0 +1,119 @@
+.feature {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 350px;
+    background: url(../../img/about_block_background.png);
+    background-size: cover; 
+}
+
+.feature-block__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-block__info_design {
+    width: 320px;
+
+}
+
+.feature-block__img-design {
+    display: flex;
+    margin: 0 auto;
+}
+
+.feature-block__design-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.feature-block__design-text {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #ffffff;
+    line-height: 27px;
+}
+
+.feature-block__info_camera {
+    width: 320px;
+}
+
+.feature-block__img-camera {
+    display: flex;
+    margin: 0 auto;
+}
+
+.feature-block__camera-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 20px 19px 20px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.feature-block__camera-text {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #ffffff;
+    line-height: 27px;
+}
+
+.feature-block__info_heart {
+    width: 320px;
+    height: 224px;
+}
+
+.feature-block__img-heart {
+    display: flex;
+    margin: 0 auto;
+}
+
+.feature-block__heart-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 19px 20px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.feature-block__heart-text {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #ffffff;
+    line-height: 27px;
+}
+
+/* подправил размеры на медиаквери */
+@media (max-width: 768px) {
+    .feature-block__info {
+        flex-direction: column;
+    }
+    .feature {
+        padding: 30px;
+        height: 800px;
+    }
+    .feature-block__info_camera {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+  }
+
+
+  @media (max-width: 1024px) {
+    .feature-block__info {
+        width: 100%;
+        font-size: 8px;
+    }
+  }

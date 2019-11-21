@@ -1,0 +1,135 @@
+.about {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    background: url(../../img/about_block_background.png);
+    background-size: cover;
+
+}
+
+.about-block {
+    position: relative;
+    display: flex;
+ 
+}
+.about-block__media {
+    position: absolute;
+    display: flex;
+    top: 200px;
+    box-shadow: 0 6px 4px -4px #c4c6ca;
+}
+
+.about-block__item {
+    display: flex;
+    justify-content: center; 
+    overflow: hidden;
+} 
+
+.about-block__item-title {
+    color: #fff;
+    font-weight: 100;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-block__media-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    padding: 50px 0px 0px 20px;
+    border: 6px solid #fff;
+    border-right: none;
+    line-height: 30px;
+    background-color: #262933;
+    color: #fff;
+    
+}
+
+.about-block__media-title {
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: lighter;
+    
+}
+
+.about-block__media-item {
+    display: flex;
+    flex: 1 1 0px;
+    border: 6px solid #fff;
+    border-left: none;
+}
+
+.website {
+    width: 100%;
+}
+
+.about-block__media-link_blue {
+    text-decoration: none;
+    color: #43b5fd;
+}
+
+.about-block__media-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(165, 165, 165);
+}
+
+.about-block__media-links{
+    margin-top: 30px;
+}
+
+.about-block__media-link {
+    padding: 7px 25px;
+    margin-top: 50px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+
+.about-block__media-link:hover {
+    background: #129bf0;
+    color: #fff;
+    transition: all 0.3s ease;
+    border: 1px solid #129bf0;
+}
+
+@media(max-width: 1024px) {
+    .about-block__media {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .about-block__media {
+        width: 75%;
+    }
+
+    .about-block__media-item {
+        display: none;
+    }
+
+    .about-block__media-info {
+        padding: 15px;
+        margin-top: 25px;
+        text-align: center;
+        box-shadow: none;
+        border: none;
+
+    }
+  }
+
+@media (max-width: 320px) {
+    .about-block__media {
+        display: none;
+    }
+    .about {
+        height: 100px;
+    }
+    .about-block__item-title {
+        font-size: 10px;
+    }
+  } 
+  
