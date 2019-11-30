@@ -1,0 +1,40 @@
+.header {
+background: $sections-background;
+    
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 15px;
+        
+
+    }
+    &-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        align-items: center;
+        list-style: none;
+        padding-bottom: 7px;
+        
+        a {
+            @include main-font
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $text-color;
+            font-weight: bold;
+            font-size: 12px;
+        
+        }
+        a:hover {
+            color: $main-color;
+            transition: all 0.4s ease;
+
+        }
+    }
+    
+    &-logo {
+        width: 25px;
+    }
+}
+
