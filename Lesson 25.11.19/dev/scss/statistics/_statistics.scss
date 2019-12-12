@@ -1,0 +1,110 @@
+.statistics {
+@include main-font;
+
+background: $main-color;
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        height: 250px;
+        width: 100%;
+        flex: 1 1 auto;
+    }
+    
+    &-projects {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        align-items: center;
+        
+        &__image {
+            width: 50px;
+        }
+        
+        &__info {
+            display: flex;
+            margin-left: 10px;
+            text-transform: uppercase;
+            font-size: 16px;
+            text-align: start;
+            color: #ffffff;
+            line-height: 25px;
+            
+        }
+    
+    }
+
+    &-hours {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        align-items: center;
+        
+        &__image {
+            width: 50px;
+        }
+
+        &__info {
+            display: flex;
+            margin-left: 10px;
+            text-transform: uppercase;
+            font-size: 16px;
+            text-align: start;
+            color: #ffffff;
+            line-height: 25px;
+            margin-bottom: 5px;
+        }
+        
+    }
+
+    &-feedbacks {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        align-items: center;
+
+        
+    
+        &__image {
+            width: 50px;
+        }
+
+        &__info {
+            display: flex;
+            margin-left: 10px;
+            text-transform: uppercase;
+            font-size: 16px;
+            text-align: start;
+            color: #ffffff;
+            line-height: 25px;
+            margin-bottom: 5px;
+        }
+
+    }
+
+    &-clients {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        align-items: center;
+    
+        &__image {
+            width: 50px;
+        }
+
+        &__info {
+            display: flex;
+            margin-left: 10px;
+            text-transform: uppercase;
+            font-size: 16px;
+            text-align: start;
+            color: #ffffff;
+            line-height: 25px;
+            margin-bottom: 5px;
+        }
+        
+    }
+
+    }

@@ -43,6 +43,10 @@ background: $sections-background;
 
     &-image {
         display: flex;
+        
+        &__item {
+            height: 400px;
+        }
     
     }
 
