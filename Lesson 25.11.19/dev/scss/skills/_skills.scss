@@ -1,0 +1,55 @@
+.skills {
+@include main-font;
+
+background: $sections-background;
+
+    &-container {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    &-header {
+        font-size: $sections-header-size;
+    }
+
+    &-progressive {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 60px; 
+    
+        &__design { 
+            border-bottom: 2px solid transparent;
+            border-image: linear-gradient(90deg, rgba(16,201,195,1) 75%, rgba(216,216,216,1) 75%);
+            border-image-slice: 1;
+
+        }
+
+        &__web {
+            border-bottom: 2px solid;
+            border-image: linear-gradient(90deg, rgba(16,201,195,1) 90%, rgba(216,216,216,1) 90%);
+            border-image-slice: 1;
+        }
+
+        &__marketing {
+            border-bottom: 2px solid transparent;
+            border-image: linear-gradient(90deg, rgba(16,201,195,1) 65%, rgba(216,216,216,1) 65%);
+            border-image-slice: 1;
+        }
+
+    }
+
+    &-image {
+        display: flex;
+        
+        &__item {
+            height: 400px;
+        }
+    
+    }
+
+
+
+}

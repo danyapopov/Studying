@@ -1,0 +1,40 @@
+.testimonials {
+@include main-font;
+background: $main-color;
+
+    &-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+    }
+
+    &-feedback {
+        display: flex;
+        width: 800px;
+    
+        &__text {
+            font-size: 21px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 30px;
+        }
+    
+    }
+
+    &-author {
+        display: flex;
+        justify-content: center;
+        width: 800px;
+
+        &__text {
+            padding-top: 20px;
+            font-size: 14px;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+
+    }
+
+}

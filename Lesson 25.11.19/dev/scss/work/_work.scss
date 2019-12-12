@@ -1,0 +1,40 @@
+.work {
+    @include main-font;
+
+    &-media {
+        display: flex;
+        flex-direction: row;
+    
+        &__first {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 300px;
+        }
+    
+        &__second {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 300px;
+        }
+
+    }
+
+    &-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        
+        &__text {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: $text-color-secondary;
+            font-weight: bold;  
+        }
+
+    }
+ 
+}

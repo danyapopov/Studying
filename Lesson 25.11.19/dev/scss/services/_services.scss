@@ -1,0 +1,108 @@
+.services {
+@include main-font;
+
+background: $sections-background;
+
+    &-block {
+        display: flex;
+        
+        &__first {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+
+        &__second {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    
+    }
+
+    &-design {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 292px;
+        line-height: 30px;
+    
+    }
+
+    &-web {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 292px;
+        line-height: 30px;
+    }
+
+    &-mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 292px;
+        line-height: 30px;
+    }
+
+    &-game {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 292px;
+        line-height: 30px;
+    }
+
+    &-seo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 292px;
+        line-height: 30px;
+    }
+
+    &-photo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 292px;
+        line-height: 30px;
+    }
+
+    &-graphic {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 292px;
+        line-height: 30px;
+    }
+
+    &-illustration {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 292px;
+        line-height: 30px;
+    }
+
+}

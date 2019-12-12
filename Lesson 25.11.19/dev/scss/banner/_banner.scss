@@ -20,6 +20,11 @@ background: $sections-background;
         width: 300px;
         margin: 0px 100px 0px 60px;
         transform: rotate(-12deg);
+
+        &__item {
+            width:100%;
+
+        }
         
     }
 
@@ -27,14 +32,15 @@ background: $sections-background;
         display: flex;
         align-items: center;
         height: 100px;
-    }
+        
+        &__text {
+            @include main-font;
+            display: flex;
+            font-size: 40px;
+            color: $text-color;
+            font-weight: bold;
+        }
     
-    &-header__text {
-        @include main-font;
-        display: flex;
-        font-size: 40px;
-        color: $text-color;
-        font-weight: bold;
     }
 
     &-info {
