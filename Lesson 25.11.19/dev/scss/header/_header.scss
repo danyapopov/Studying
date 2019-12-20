@@ -18,12 +18,13 @@ background: $sections-background;
         padding-bottom: 7px;
         
         a {
-            @include main-font
+            @include main-font;
+    
             text-decoration: none;
             text-transform: uppercase;
             color: $text-color;
             font-weight: bold;
-            font-size: 12px;
+            font-size: 13px;
         
         }
         a:hover {
