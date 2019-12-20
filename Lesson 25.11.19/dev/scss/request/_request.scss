@@ -1,0 +1,149 @@
+.request {
+@include main-font;
+background: $sections-background;
+
+
+    &-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+        width: 680px;
+        margin: 0 auto;
+    }
+
+    &-header {
+        display: flex;
+        justify-content: center;
+
+        &__title {
+            font-size: 35px;
+            color: $text-color;
+        }
+
+    }
+
+    &-info {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+        &__text {
+            text-align: center;
+            font-size: 19px;
+            color: $text-color-secondary;
+        }
+
+    }
+
+    &-form {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        
+
+        &__info {
+            display: flex;
+            justify-content: space-around;
+            
+            #user-name {
+                @include user-options;
+            }
+    
+            #user-name::placeholder {
+                @include user-placeholder;
+            }
+
+            #user-name:focus::placeholder {
+                @include user-placeholder;
+                opacity: 0;
+            }
+
+            #user-email {
+                @include user-options;
+                margin-left: 30px;
+            }
+    
+            #user-email::placeholder {
+                @include user-placeholder;
+            }
+
+            #user-email:focus::placeholder {
+                @include user-placeholder;
+                opacity: 0;
+            }
+        }
+        
+        &__title {
+            display: flex;
+
+            #user-title {
+                height: 50px;
+                width: 100%;
+                margin-top: 20px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            #user-title::placeholder {
+                @include user-placeholder;
+            }
+
+            #user-title:focus::placeholder {
+                @include user-placeholder;
+                opacity: 0;
+                
+            }
+
+        }
+
+        &__comment {
+            display: flex;
+
+            #user-comment {
+                display: flex;
+                text-align: left;
+                height: 170px;
+                width: 100%;
+                margin-top: 20px;
+                border: none;
+                border-radius: 5px;
+                
+            }
+
+            #user-comment::placeholder {
+                padding-left: 10px;
+                color: $text-color-secondary;
+                font-size: 14px;
+
+            }
+
+            #user-comment:focus::placeholder {
+                @include user-placeholder;
+                opacity: 0;
+            }
+        }
+        
+    }
+
+    &-button {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        width: 100%;
+        height: 95px;
+          
+            a {
+                @include button-options;
+            }
+            a:hover {
+                background: $sections-background;
+                color: $main-color;
+                transition: all 0.2s ease;
+                
+            }
+        }
+
+
+}

@@ -1,4 +1,7 @@
 .banner {
+@include main-font;
+
+
 background: $sections-background;
     
     &-container {
@@ -34,7 +37,6 @@ background: $sections-background;
         height: 100px;
         
         &__text {
-            @include main-font;
             display: flex;
             font-size: 40px;
             color: $text-color;
@@ -51,7 +53,6 @@ background: $sections-background;
     }    
     
     &-info__text {
-        @include main-font;
         display: flex;
         text-align: start;
         font-size: 18px;
@@ -65,25 +66,12 @@ background: $sections-background;
     
     
     a {
-        @include main-font;
-        display: block;
-        border: 2px solid $main-color;
-        background-color: $main-color;
-        width: 180px;
-        height: 55px;
-        text-decoration: none;
-        text-transform: uppercase;
-        text-align: center;
-        transition: 0.2s;
-        line-height: 50px;
-        font-size: 14px;
-        color: #fff;
+        @include button-options;
     }
     a:hover {
         background: $sections-background;
         color: $main-color;
         transition: all 0.2s ease;
-        transform: scale(0.9);
         
     }
     

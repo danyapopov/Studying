@@ -1,26 +1,27 @@
 .work {
     @include main-font;
-
+    
     &-media {
         display: flex;
         flex-direction: row;
-    
+        
         &__first {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             height: 300px;
+            margin-top: 20px;
         }
-    
+        
         &__second {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             height: 300px;
         }
-
+        
     }
-
+    
     &-block {
         display: flex;
         justify-content: center;
